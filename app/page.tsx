@@ -1,13 +1,11 @@
-import Hero from "@/components/hero";
+import Hero from "@/components/Hero";
 import ProductCard from "@/components/ProductCard";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50">
-      {/* HERO BANNER */}
       <Hero />
 
-      {/* PRODUCTS SECTION */}
       <section id="products" className="px-6 py-10">
         <div className="mx-auto max-w-6xl">
           <h1 className="text-3xl font-bold">My Shop 🛍</h1>
