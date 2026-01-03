@@ -9,7 +9,8 @@ export default function Home() {
           Discover premium products at the best price
         </p>
 
-        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+
          <ProductCard
   name="Gold Ring"
   price={5000}

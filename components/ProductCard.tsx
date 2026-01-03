@@ -8,22 +8,22 @@ type ProductProps = {
 
 export default function ProductCard({ name, price, image }: ProductProps) {
   return (
-    <div className="border rounded-xl p-4 shadow-sm">
+    <div className="rounded-2xl border bg-white p-4 shadow hover:shadow-lg transition">
       <Image
         src={image}
         alt={name}
-        width={300}
-        height={300}
-        className="rounded-lg"
+        width={400}
+        height={400}
+        className="rounded-xl"
       />
 
-      <h3 className="mt-2 font-semibold">{name}</h3>
-      <p className="text-gray-600">₹{price}</p>
+      <h3 className="mt-3 text-lg font-semibold">{name}</h3>
+      <p className="text-yellow-700 font-medium">₹{price}</p>
 
       <a
-        href={`https://wa.me/919561255062text=I want to buy ${name} for ₹${price}`}
+        href={`https://wa.me/919561255062?text=I want to buy ${name} for ₹${price}`}
         target="_blank"
-        className="mt-3 block w-full text-center bg-green-600 text-white py-2 rounded"
+        className="mt-4 block w-full text-center bg-black text-white py-2 rounded-full hover:bg-gray-800 transition"
       >
         Buy on WhatsApp
       </a>
