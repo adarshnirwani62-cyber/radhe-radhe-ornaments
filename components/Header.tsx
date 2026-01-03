@@ -8,15 +8,16 @@ export default function Header() {
         <Image
           src="/logo.png"
           alt="Radhe Radhe Ornaments"
-          width={40}
-          height={40}
+          width={45}
+          height={45}
+          priority
         />
-        <span className="text-xl font-bold tracking-wide">
+        <span className="text-xl font-bold">
           Radhe Radhe Ornaments
         </span>
       </div>
 
-      <Link href="/" className="text-sm font-medium text-gray-600 hover:text-black">
+      <Link href="/" className="text-gray-600 hover:text-black">
         Home
       </Link>
     </header>
