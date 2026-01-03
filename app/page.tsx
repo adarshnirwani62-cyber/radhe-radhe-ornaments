@@ -1,4 +1,5 @@
 import ProductCard from "@/components/ProductCard";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <p className="mt-2 text-gray-600">
           Discover premium products at the best price
         </p>
-
+<Hero />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           <ProductCard
             name="Gold Ring"
