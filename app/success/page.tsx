@@ -1,25 +1,14 @@
+"use client";
+
 export const dynamic = "force-dynamic";
 
 export default function SuccessPage() {
   return (
-    <main style={{ padding: "40px", fontFamily: "Arial", textAlign: "center" }}>
-      <h1>🎉 Order Placed Successfully</h1>
-      <p>Thank you for your order.</p>
-      <p>We will contact you soon.</p>
-
-      <a
-        href="/"
-        style={{
-          display: "inline-block",
-          marginTop: "20px",
-          padding: "10px 20px",
-          backgroundColor: "black",
-          color: "white",
-          textDecoration: "none",
-        }}
-      >
-        Back to Home
-      </a>
+    <main className="min-h-screen flex items-center justify-center bg-green-50">
+      <div className="bg-white p-6 rounded-xl shadow-lg text-center">
+        <h1 className="text-3xl font-bold text-green-600">Order Successful 🎉</h1>
+        <p className="mt-4">Thank you for shopping with Radhe Radhe Ornaments.</p>
+      </div>
     </main>
   );
 }
