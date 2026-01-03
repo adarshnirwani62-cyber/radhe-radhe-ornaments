@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 export default function SuccessPage() {
   return (
     <main style={{ padding: "40px", fontFamily: "Arial", textAlign: "center" }}>
